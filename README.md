@@ -24,7 +24,7 @@ python train_network.py --path data/cell_data_3A.pkl --arch_name UNet --encoder_
 P.S. You can change augmentations during training in *network_training/augmentations.py* 
 
 
-2. If you want to check test examples, you have to run *network_training/test_examples.py*
+2. If you want to check test examples, you have to run *test_examples.py*
 
 Example:
 
@@ -40,8 +40,12 @@ python test_examples.py --split test --report_images_output_dir data/test_sample
 
 ### Data
 
-All data and networks, used in the research article is located [here](https://mega.nz/folder/zvhFjIJZ#wjaRa-D1ja6YEa0ZZjl--g)
+All data and networks, used in the research article, are located [here](https://mega.nz/folder/zvhFjIJZ#wjaRa-D1ja6YEa0ZZjl--g)
 
 If you want to run the scripts and jupyter notebooks, it is recommended to locate all necessary files in the *./data/* directory.
 
 It is also reccomemded to locate all *.ckpt* files in the *./final_models/* directory.
+
+## How to cite it?
+
+Kozlov K.S., Boiko D.A., Detusheva E.V., Detushev K.V., Pentsak E.O., Vereshchagin A.N., Ananikov V.P., "Digital biology approach for macroscale studies of biofilm growth and biocide effects with electron microscopy", *Digital Discovery*, **2023**, ASAP 
